@@ -1,5 +1,5 @@
 const page = require('./build/todo.ejs');
 
 module.exports = {
-    page
+    page : JSON.stringify(page)
 };
