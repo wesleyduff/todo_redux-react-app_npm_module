@@ -1,5 +1,6 @@
 const fs = require('fs')
+const path = require('path')
 
 module.exports = {
-    page : "" + fs.readFileSync('./build/todo.txt') + ""
+    page : "" + fs.readFileSync(path(__dirname, './build/todo.txt')) + ""
 };
