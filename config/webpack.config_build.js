@@ -561,7 +561,7 @@ module.exports = function (webpackEnv) {
           {
             inject: true,
             template: paths.appHtmlBuild,
-            filename: "todo2.txt"
+            filename: "todo.txt"
           },
           isEnvProduction
             ? {
