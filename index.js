@@ -1,5 +1,5 @@
-const page = require('./build/todo.txt');
+const fs = require('fs')
 
 module.exports = {
-    page : "" + page + ""
+    page : "" + fs.readFileSync('./build/todo.txt') + ""
 };
