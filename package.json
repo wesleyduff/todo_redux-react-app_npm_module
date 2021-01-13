@@ -1,6 +1,7 @@
 {
   "name": "todo",
   "version": "0.1.0",
+  "main": "./build/todo.ejs",
   "private": true,
   "dependencies": {
     "@babel/core": "7.12.3",

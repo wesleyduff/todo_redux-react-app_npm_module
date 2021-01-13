@@ -1,3 +1,16 @@
+#manual settings
+1. change webpack.config.js HTML WEBPACK PLUGIN : filename: "todo.ejs".. where todo is the app name
+- we need an ejs template here to be part of the build
+2. update the public index.html file to just be
+```javascript
+<noscript>You need to enable JavaScript to run this app.</noscript>
+<div id="root"></div>
+
+```
+3. remove the /build folder from git ignore. We need it.
+4. update main index.js file to export the ejs file
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
